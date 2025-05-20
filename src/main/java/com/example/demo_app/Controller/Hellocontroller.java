@@ -12,6 +12,6 @@ public class Hellocontroller {
     //http://localhost:8080/helloworld/gethelloworldmessage
     @GetMapping("/gethelloworldmessage")
     public String hellocontroller(){
-        return "Hello World!.... Hyderabad -> Gachibowli";
+        return "Hello World!....";
     }
 }
